@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public abstract class Observer : MonoBehaviour
+{
+    public abstract void OnNotify(NotificationType notificationType);
+
+    private void Start()
+    {
+        
+    }
+}
